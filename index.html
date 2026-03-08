@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Rapa Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<audio autoplay loop>
+<source src="backsound.mp3" type="audio/mp3">
+</audio>
+
+<header>
+
+<img src="profile.jpg" class="profile">
+
+<h1 class="name">RAPA</h1>
+
+<p class="tag">making some stuff</p>
+
+<div class="buttons">
+
+<button onclick="scrollToSection('about')">ABOUT</button>
+
+<button onclick="scrollToSection('social')">SOCIAL</button>
+
+<button onclick="scrollToSection('contact')">CONTACT</button>
+
+</div>
+
+</header>
+
+<section id="about">
+
+<div class="aboutBox">
+
+<h2>About Me</h2>
+
+<p>
+i make random stuff on the internet.
+mostly web things, sometimes experimenting with design and small tools.
+just learning and building whatever feels interesting.
+</p>
+
+</div>
+
+</section>
+
+<section id="social">
+
+<h2>Find Me</h2>
+
+<div class="socials">
+
+<a href="https://instagram.com/rapaal_404">
+<i class="fab fa-instagram"></i>
+</a>
+
+<a href="https://tiktok.com/@emrapaaa_">
+<i class="fab fa-tiktok"></i>
+</a>
+
+<a href="https://discord.com/users/rappaaalp">
+<i class="fab fa-discord"></i>
+</a>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Me</h2>
+
+<div class="contactBox">
+
+<form action="mailto:rappaaalp@gmail.com" method="POST" enctype="text/plain">
+
+<input type="text" name="name" placeholder="your name" required>
+
+<input type="email" name="email" placeholder="your email" required>
+
+<textarea name="message" placeholder="message..." required></textarea>
+
+<button type="submit">SEND</button>
+
+</form>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
